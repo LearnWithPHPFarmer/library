@@ -21,4 +21,4 @@ Route::get('authors', 'AuthorsController@index');
 Route::get('authors/{id}', 'AuthorsController@show');
 Route::post('authors', 'AuthorsController@store');
 Route::put('authors/{id}', 'AuthorsController@update');
-Route::delete('authors/{id}', 'AuthorsController@destroy');
+Route::delete('authors/{id}', 'AuthorsController@destroyphp');
